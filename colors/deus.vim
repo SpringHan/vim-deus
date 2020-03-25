@@ -408,7 +408,7 @@ if version >= 703
 endif
 
 " Weird black color breaks 
-hi! link NonText deusGreen 
+hi NonText ctermfg=gray guifg=grey10
 hi! link Ignore deusPurple 
 hi! link SpecialKey deusOrange
 
